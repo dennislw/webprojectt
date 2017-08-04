@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Golden State Warriors Roster</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="style.css" />
+
+        <script type="text/javascript" src="functions.js"></script>
+        </style>
+
+    </head>
+    <body>
+
+        <div class="page-header">
+           <h1> <img src="icon.png"> Golden State Warriors Roster</h1>
+        </div>
+
+        <br>
+
+        <div class="container aaa">
+            <form id="frmPerson" class="form-horizontal">
+                <div class="form-group">
+                    <img src="no.png"><label for="txtNo" class="col-sm-2 control-label">No</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="txtNo" class="form-control" placeholder="No">
+                    </div>
+                </div>                    
+                <div class="form-group">
+                    <img src="name.png"><label for="txtName" class="col-lg-2 control-label">Name</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="txtName" class="form-control" placeholder="Name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <img src="position.png"><label for="txtPosition" class="col-lg-2 control-label">Position</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="txtPosition" class="form-control" placeholder="Position">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <img src="age.png"><label for="txtAge" class="col-lg-2 control-label">Age</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="txtAge" class="form-control" placeholder="Age">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <img src="college.png"><label for="txtCollege" class="col-lg-2 control-label">College</label>
+                    <div class="col-sm-4">
+                        <input type="text" id="txtCollege" class="form-control" placeholder="College">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-lg-offset-2 col-sm-4">
+                        <input type="submit" value="Insert" id="btnSave" class="btn btn-success"/>
+                    </div>
+                </div>
+            </form>
+        </div> 
+
+        <br><hr> 
+
+        <div class="container">
+            <table id="tblList" class="table table-bordered"></table>
+        </div>
+
+        <div id="footer">
+                <p class="text-muted credit">Golden State Warriors</p>
+        </div>
+
+    </body>
+</html>
